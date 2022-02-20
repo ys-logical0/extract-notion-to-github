@@ -1,0 +1,45 @@
+{
+  "name": "extract-notion-to-github",
+  "version": "1.0.0",
+  "description": "create github data by notion databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ys-logical0/extract-notion-to-github.git"
+  },
+  "keywords": [
+    "notion",
+    "github"
+  ],
+  "author": "logical0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ys-logical0/extract-notion-to-github/issues"
+  },
+  "homepage": "https://github.com/ys-logical0/extract-notion-to-github#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "husky": "^7.0.4",
+    "jest": "^27.5.1",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
