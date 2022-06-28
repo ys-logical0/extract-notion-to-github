@@ -1,5 +1,5 @@
 {
-  "name": "extract-notion-to-github",
+  "name": "github-management-by-notion",
   "version": "1.0.0",
   "description": "create github data by notion databases",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ys-logical0/extract-notion-to-github.git"
+    "url": "git+https://github.com/ys-logical0/github-management-by-notion.git"
   },
   "keywords": [
     "notion",
@@ -21,9 +21,9 @@
   "author": "logical0",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ys-logical0/extract-notion-to-github/issues"
+    "url": "https://github.com/ys-logical0/github-management-by-notion/issues"
   },
-  "homepage": "https://github.com/ys-logical0/extract-notion-to-github#readme",
+  "homepage": "https://github.com/ys-logical0/github-management-by-notion#readme",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
     "@types/jest": "^27.4.0",

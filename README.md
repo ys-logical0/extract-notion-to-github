@@ -1,2 +1,2 @@
-# extract-notion-to-github
+# github-management-by-notion
 Create github data by notion database
